@@ -3,32 +3,24 @@ import ReactDOM from "react-dom";
 import "./index.css";
 //import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  Navigation,
-  Footer,
-  Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
-} from "./components";
+import App from "./App";
+import Download from "./routes/download";
+import Purchase from "./routes/purchase";
+import Signup from "./routes/signup";
+import Custom from "./routes/custom";
 
 ReactDOM.render(
-  <Router>
-    <Navigation />
+  <Router basename="/ctatcoolbeans">
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+      <Route path="/" element={<App />}>
+        <Route path="download" element={<Download />} />
+        <Route path="purchase" element={<Purchase />} />
+        <Route path="signup" element={<Signup />} />
+        <Route path="custom" element={<Custom />} />
       </Route>
     </Routes>
-    <Footer />
   </Router>,
-
+  //<App />,
   document.getElementById("root")
 );
 
