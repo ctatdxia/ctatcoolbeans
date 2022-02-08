@@ -16,7 +16,7 @@ export default function App() {
         <Link to="/signup">Sign Up</Link> |{' '}
         <Link to="/custom">Custom</Link>
       </nav>
-      <Outlet />
+      
       <Footer />
     </div>
   );
