@@ -17,7 +17,7 @@ function Footer() {
       <footer className="py-5 bg-dark fixed-bottom">
         <div className="container">
           <p className="m-0 text-center text-white">
-            Following universal Website Tag has been embedded:
+            Refresh the page to trigger the pixel firing:
           </p>
           <p>{uwt}</p>
         </div>
