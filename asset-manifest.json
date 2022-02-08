@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ctatcoolbeans/static/css/main.e6c13ad2.css",
-    "main.js": "/ctatcoolbeans/static/js/main.61236538.js",
+    "main.js": "/ctatcoolbeans/static/js/main.73c67c65.js",
     "service-worker.js": "/ctatcoolbeans/service-worker.js",
     "index.html": "/ctatcoolbeans/index.html",
     "static/media/uwt.txt": "/ctatcoolbeans/static/media/uwt.6cc49bbf35e9be506547.txt",
     "main.e6c13ad2.css.map": "/ctatcoolbeans/static/css/main.e6c13ad2.css.map",
-    "main.61236538.js.map": "/ctatcoolbeans/static/js/main.61236538.js.map"
+    "main.73c67c65.js.map": "/ctatcoolbeans/static/js/main.73c67c65.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.61236538.js"
+    "static/js/main.73c67c65.js"
   ]
 }
