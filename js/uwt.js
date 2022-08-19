@@ -4,5 +4,5 @@ a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,
 // Insert Twitter Pixel ID and Standard Event data below
 twq('init','o6ome');
 twq('track','PageView', {
-  restricted_data_use: 'restrict_optimization' // or 'off'
+  restricted_data_use: 'off' // or 'restrict_optimization'
 });
